@@ -92,6 +92,13 @@
             android:fragment="com.aicp.extras.fragments.Theming" />
 
         <PreferenceScreen
+            android:title="@string/recents_title"
+            android:key="recents"
+            android:summary="@string/recents_summary"
+            android:icon="@drawable/ic_settings_recents"
+            android:fragment="com.aicp.extras.fragments.Recents" />
+
+        <PreferenceScreen
             android:title="@string/other_ui_title"
             android:key="other_ui"
             android:summary="@string/other_ui_summary"
